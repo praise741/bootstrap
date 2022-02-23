@@ -30,14 +30,14 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        
+
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead" style="background-image: url(<?php echo $data->bg_img ?>)">
+        <header class="masthead" style="background-image: url">
             <div class="container">
                 <div class="masthead-subheading">{{$data->sub_title}}</div>
                 <div class="masthead-heading text-uppercase">{{$data->title}}</div>
@@ -54,8 +54,8 @@
                 <div class="row text-center">
 
                     @foreach ($showData as $item)
-                        
-                    
+
+
 
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -65,9 +65,9 @@
                         <h4 class="my-3">{{$item->title}}</h4>
                         <p class="text-muted">{{$item->description}}</p>
                     </div>
-                    
+
                     @endforeach
-                    
+
                     {{-- <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -105,8 +105,8 @@
                 <div class="row">
 
                     @foreach ($portfolioData as $data)
-                        
-                   
+
+
 
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
@@ -124,14 +124,14 @@
                     </div>
 
                     @endforeach
-                    
+
                 </div>
             </div>
         </section>
 
 
 
-        
+
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
@@ -194,7 +194,7 @@
                 </ul>
             </div>
         </section>
-        
+
         <!-- Clients-->
         <div class="py-5">
             <div class="container">
@@ -269,7 +269,7 @@
             </div>
         </footer>
 
-        
+
 
 
 
@@ -307,7 +307,7 @@
                 </div>
             </div>
         </div>
- 
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
